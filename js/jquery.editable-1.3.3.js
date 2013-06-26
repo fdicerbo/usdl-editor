@@ -38,9 +38,9 @@ $.fn.editable = function(options){
         }
 	
 	options.toEditable = function(){
-    	$("select").each(function() {  
-    		opts.toNonEditable($(this).parent(), true);
-    	})
+    	//$("select").each(function() {  
+    	//	opts.toNonEditable($(this).parent(), true);
+    	//})
 		$this = $(this)
                 var html = $this.html()
                 if ($this.hasClass('placeholder')) {
